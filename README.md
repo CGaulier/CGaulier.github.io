@@ -16,6 +16,7 @@ Pour installer Jekyll il faut Ruby, Ruby gem et node.js
 * Ruby : ruby est un langage et un compilateur crée par Yukihiro Matsumoto. NOTE : ne pas oublier les paquets de développement, sinon jekyll ne s'intallera pas.
 * Rubygem : rubygem est un programme permettant d'installer et de lancer des programme ruby. installation via le terminal
 * Nodejs : Node js est une plateforme server en javascript.
+* commande importante : sudo apt-get install ""
 
 Creation du site :On entre les première ligne de commande de Jekyll new(nom du site) attention à bien se placer dans le bon fichier après la creation du site ! il faut pour le voir en local faire : 
 * cd (nom site)
