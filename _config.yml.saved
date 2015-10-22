@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="15" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.1" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:fr-FR; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Thu Oct 22 14:27:35 2015
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.date">Thu Oct 22 14:27:35 2015
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="1" edit-time="58" last-saved="1445516855" uid="337a948c-78b8-11e5-8d73-fd6fcd227aaf">
+<version id="1" started="1445516855" uid="466590a6-78b8-11e5-8d73-fd6fcd227aaf" auto="0" top-xid="1"/>
+</history>
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Liberation Serif; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="2">
+<p style="Normal" xid="3" props="text-align:left; dom-dir:ltr"># Site settings</p>
+<p style="Normal" xid="4" props="text-align:left; dom-dir:ltr">title: Ma présentation</p>
+<p style="Normal" xid="1" props="text-align:left; dom-dir:ltr">content : BLA BLA BLA BLA DUN</p>
+<p style="Normal" xid="5" props="text-align:left; dom-dir:ltr">email: clem.gaulier@orange.fr</p>
+<p style="Normal" xid="6" props="text-align:left; dom-dir:ltr">description: &gt; # this means to ignore newlines until "baseurl:"</p>
+<p style="Normal" xid="7" props="text-align:left; dom-dir:ltr"> C’est mon premier site sous Jekyll :3.</p>
+<p style="Normal" xid="8" props="text-align:left; dom-dir:ltr">baseurl: "" # the subpath of your site, e.g. /blog/</p>
+<p style="Normal" xid="9" props="text-align:left; dom-dir:ltr">url: "http://yourdomain.com" # the base hostname &amp; protocol for your site</p>
+<p style="Normal" xid="10" props="text-align:left; dom-dir:ltr">twitter_username: jekyllrb</p>
+<p style="Normal" xid="11" props="text-align:left; dom-dir:ltr">github_username:  jekyll</p>
+<p style="Normal" xid="12"><c></c></p>
+<p style="Normal" xid="13" props="text-align:left; dom-dir:ltr"># Build settings</p>
+<p style="Normal" xid="14" props="text-align:left; dom-dir:ltr">markdown: kramdown</p>
+<p style="Normal" xid="15"></p>
+</section>
+</abiword>
