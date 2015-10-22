@@ -1,2 +1,0 @@
-# cGaulier
-site exo
