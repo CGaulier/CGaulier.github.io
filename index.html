@@ -1,17 +1,13 @@
 ---
-layout: home
+layout: default
 ---
-<!DOCTYPE HTML>
-<html>
 
-	<body>
 
 		<main>
-			{{ site.description }}
-			{{ site.content }}
+		{{ site.description}}
 			<br>
+		
 			
-
 <ul>
     {% for post in site.posts %}
       <li>
@@ -20,12 +16,8 @@ layout: home
         <h2>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span>dans  categorie<a href="{{ post.categories | prepend: site.baseurl  }}"> {{ post.categories }}</a></span>
       </li>
     {% endfor %}
   </ul>
 		</main>
-
-
-	</body>
-
-</html>
