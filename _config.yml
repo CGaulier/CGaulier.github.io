@@ -3,7 +3,7 @@ title: Ma présentation
 content: something nice 
 email: clem.gaulier@orange.fr
 description: C’est mon premier site sous Jekyll.
-baseurl: http://127.0.0.1:4000/
+#baseurl: http://127.0.0.1:4000/
 #url: http://127.0.0.1:4000/  #the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
