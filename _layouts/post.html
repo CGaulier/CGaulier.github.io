@@ -1,16 +1,52 @@
 ---
 layout: default
 ---
+ <div class="container">
 
-<div class="post">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Articles </h1>
+                <ol class="breadcrumb">
+                    <li><a href="/index.html">Accueil</a>
+                    </li>
+                    <li class="active">Article</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
 
+        <!-- Content Row -->
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <hr>
+
+                <!-- Date/Time -->
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-title">{{ page.title }}</h2>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+
+
+                <hr>
+
+                <!-- Post Content -->
+                		<article class="post-content">
+    					{{ content }}
+ 						 </article>
+
+                <hr>
+
+<div class="post">
+
+
+
+  
 
 </div>

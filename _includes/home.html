@@ -1,0 +1,39 @@
+
+<div class="container">
+
+
+<main>
+		{{ site.description}}
+			<br>
+
+		   <!-- /.row -->
+
+        <!-- Portfolio Section -->
+  <div class="row">
+    <div class="col-lg-12">
+          <h2 class="page-header">Les articles</h2>
+    </div>
+			
+<ul>
+    {% for post in site.posts %}
+
+        
+ <div class="col-md-4 col-sm-6">
+
+  <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+              <h2>
+                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+              <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+               <span>dans  categorie<a href="{{ post.categories | prepend: site.baseurl  }}"> {{ post.categories }}</a></span>
+                   
+
+            </div>
+       
+
+    {% endfor %}
+
+  </div>
+
+  </ul>
+		</main>
